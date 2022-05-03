@@ -9,6 +9,8 @@ O objetivo desse projeto foi avaliar o impacto do early game no resultado final 
 
 Link da aplicação: https://share.streamlit.io/vinitg96/leagueoflegendspredictions/main/League_Deploy.py
 
+Código fonte da aplicação: https://github.com/vinitg96/App_Previsoes_League_of_Legends
+
 Publicação no Medium: https://medium.com/@vini.guerra87/prevendo-o-resultado-de-partidas-de-league-of-legends-com-python-3c15c10a8784
 # Layout
 
