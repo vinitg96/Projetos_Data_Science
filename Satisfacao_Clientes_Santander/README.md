@@ -26,8 +26,6 @@ Logo, a análise pode contribuir para diminuir a evasão de clientes ao permitir
 
 Por fim, futuramente é possível tentar melhorar o modelo com o ajuste de hiperparâmetros ou uso de outros algoritmos.
 
-A análise completa se encontra em : https://vinitg96.github.io/Santander_Customer_Satisfaction/
-
 Obs: não é necessário executar a célula de cross validation nem a de treinar o modelo, basta carregar os arquivos com os resultados nas células correspondentes.
 Para correta execução do notebook, descompactar o arquivo data e manter os arquivos resultantes no mesmo diretório de SatisfacaoClientesSantander.ipynb
 
