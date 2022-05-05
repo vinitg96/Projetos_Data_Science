@@ -16,4 +16,12 @@ Os dados utilizados...
 - Realizar o deploy na forma de uma aplicação online
 
 ## Etapas do Processo
-- 
+
+## Considerações Finais - Aspectos técnicos
+- Apesar da Regressão Logistica ter sido o modelo que melhor generalizou as previsões em treino e validação, sua performance foi muito baixa em relação aos demais.
+- A adição de novas features melhorou consideravelmente a performance de todos os modelos avaliados
+- O modelo final (XGBoost) apresentou uma [precisão média (AP)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score.html) de 90,6%, uma [precisão](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html?highlight=precision#sklearn.metrics.precision_score) de 100% e [revocação](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html?highlight=recall#sklearn.metrics.recall_score) de 86% para a classe 1 (clientes que realizaram o churn) nos dados de teste.
+- O número ideal de features foi 30.
+- As tentativas de tratar o desbalanceamento nos dados não mostraram melhoria frente ao modelo padrão
+- A melhor combinação de hiperparâmetros obtida foi n_estimators = 300, learning_rate = 0.6944, max_depth = 8 e subsample = 1
+- As features que mais impactam as previsões do modelo foram: recharge_total, number_customer_services_calls e international_plan. Todas essas contribuem com o aumento da probabilidade de haver churn. 
