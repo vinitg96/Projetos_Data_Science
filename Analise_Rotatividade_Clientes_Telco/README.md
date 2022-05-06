@@ -4,7 +4,7 @@ Imagine que o plano mensal de um provedor de internet seja 50 RS com instalaçã
 
 Esse simples exemplo representa um caso de churn, ou rotatividade de clientes, problema bastante frequente no cotidiano de empresas de diversos segmentos, principalmente aquelas que oferecem serviços por assinatura com o custo de aquisição de clientes sendo significativamente superior a mensalidade. Reduzir a taxa de churn é essencial para manutenção de um balanço financeiro saudável, pois de nada adianta conquistar vários clientes se os mesmos não permanecem na empresa. Além disso, repor um cliente rotativo é em média 5x mais caro do que manter esse mesmo cliente na empresa.
 
-Os dados utilizados...
+Os dados utilizados são oriundos da competição [Customer Churn Prediction 2020](https://www.kaggle.com/competitions/customer-churn-prediction-2020/data) com os dados de teste rotulados pela equipe da [Data Science Academy](https://www.datascienceacademy.com.br/). Deste modo, não é necessário submeter as predições ao Kaggle para obter a performance em teste.
 
 
 ## Objetivos 
@@ -25,3 +25,12 @@ Os dados utilizados...
 - As tentativas de tratar o desbalanceamento nos dados não mostraram melhoria frente ao modelo padrão
 - A melhor combinação de hiperparâmetros obtida foi n_estimators = 300, learning_rate = 0.6944, max_depth = 8 e subsample = 1
 - As features que mais impactam as previsões do modelo foram: recharge_total, number_customer_services_calls e international_plan. Todas essas contribuem com o aumento da probabilidade de haver churn. 
+
+## Considerações Finais - Aspectos de business
+- A taxa de rotatividade média em todos os x Estados dos EUA foi de 14,11% ± 5,02%.
+- O Estado da Califórnia foi o com menor número de clientes e maior taxa de churn (27%). Um dos possíveis motivos é a elevada concorrência enfrenteda, tendo em vista que se trata do Estado mais populoso dos Estados Unidos.
+-  Clientes que fazem o churn são aqueles que passam mais minutos em chamdas gerando mais cobranças, ou seja, justamente aqueles que agregam mais valor a empresa.
+-  Clientes que abandonam a empresa tendem a ser mais ativo no período da manhã
+-  Grande parte dos clientes que abandonam a companhia não tem nenhum dos planos ofertados (correio de voz e internacional).
+-  Clientes tendem a passar bastante tempo em média (~100 meses) antes de realizar o churn
+-  Clientes que fazem o churn realizam mais chamadas para atendimento ao cliente em relação aos clientes que permanecem. 
