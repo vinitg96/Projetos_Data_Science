@@ -4,6 +4,8 @@ Churn, ou rotatividade de clientes é quando um consumidor, antes ativo, deixa d
 
 Os dados utilizados são oriundos da competição [Customer Churn Prediction 2020](https://www.kaggle.com/competitions/customer-churn-prediction-2020/data) com os dados de teste rotulados pela equipe da [Data Science Academy](https://www.datascienceacademy.com.br/). Deste modo, não é necessário submeter as predições ao Kaggle para obter a performance em teste.
 
+A solução final consistiu em um [App online](https://share.streamlit.io/vinitg96/app_analise_churn_telco/main/Churn_app.py) contruído com o streamlit. A aplicação contém um dashboard interativo com informações dos clientes, o modelo final treinado e apto a receber novos dados para realizar previsões além de um resumo com os insights gerados. O repositório pode ser acessado [aqui](https://github.com/vinitg96/App_Analise_Churn_Telco).
+
 
 ## Objetivos 
 
@@ -13,7 +15,6 @@ Os dados utilizados são oriundos da competição [Customer Churn Prediction 202
 - Fornecer insights e sugestões, baseadas em dados, que auxiliem os tomadores de decisão a aumentar a retenção de clientes
 - Realizar o deploy na forma de uma aplicação online
 
-## Etapas do Processo
 
 ## Considerações Finais - Aspectos técnicos
 - Apesar da Regressão Logistica ter sido o modelo que melhor generalizou as previsões em treino e validação, sua performance foi muito baixa em relação aos demais.
