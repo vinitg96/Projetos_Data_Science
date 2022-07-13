@@ -1,9 +1,5 @@
-## Contexto 
 
-Churn, ou rotatividade de clientes é quando um consumidor, antes ativo, deixa de fazer uso dos serviços de uma empresa. Se trata de um problema frequente no cotidiano de empresas de diversos segmentos, principalmente aquelas que oferecem serviços por assinatura com o custo de aquisição de clientes sendo significativamente superior a mensalidade. Reduzir a taxa de churn é essencial para manutenção de um balanço financeiro saudável, pois de nada adianta conquistar vários clientes se os mesmos não permanecem na empresa. Além disso, repor um cliente rotativo é em média 5x mais caro do que manter esse mesmo cliente na empresa.
-
-Os dados utilizados são oriundos da competição [Customer Churn Prediction 2020](https://www.kaggle.com/competitions/customer-churn-prediction-2020/data) com os dados de teste rotulados pela equipe da [Data Science Academy](https://www.datascienceacademy.com.br/). Deste modo, não é necessário submeter as predições ao Kaggle para obter a performance em teste.
-
+Os dados utilizados são oriundos da competição [Customer Churn Prediction 2020](https://www.kaggle.com/competitions/customer-churn-prediction-2020/data). 
 A solução final consistiu em um [App online](https://share.streamlit.io/vinitg96/app_analise_churn_telco/main/Churn_app.py) contruído com o streamlit. A aplicação contém um dashboard interativo com informações dos clientes, o modelo final treinado e apto a receber novos dados para realizar previsões além de um resumo com os insights gerados. O repositório pode ser acessado [aqui](https://github.com/vinitg96/App_Analise_Churn_Telco).
 
 
